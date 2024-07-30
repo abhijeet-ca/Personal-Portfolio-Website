@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container {
+  height: 80px;
+  background-color: rgb(42, 41, 41);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(255, 98, 0);
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo span {
+  color: rgb(175, 174, 174);
+}
+
+nav {
+  flex-grow: .25;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: rgb(175, 174, 174);
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+
+  border-bottom: 3px solid rgb(42, 41, 41);;
+}
+
+nav a:hover, nav a:active {
+  color: rgb(255, 98, 0);
+  border-bottom: 3px solid rgb(255, 98, 0);
+}
+
+.contactMe {
+  color: rgb(42, 41, 41);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid rgb(175, 174, 174);
+  border-radius: 5px;
+  background-color: rgb(175, 174, 174);
+}
+
+.contactMe:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 98, 0);
+  background-color: rgb(255, 98, 0);
+}
